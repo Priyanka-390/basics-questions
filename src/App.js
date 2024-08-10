@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Documents from './components/Documents';
+import logo from "./logo.svg";
+import "./App.css";
+import Documents from "./components/Documents";
 
 function App() {
-  return (
-   <Documents/>
-  );
+  return <Documents />;
 }
 
 export default App;
