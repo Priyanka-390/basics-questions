@@ -114,36 +114,40 @@ const Documents = () => {
         </h2>
         <div>
           <p className="common-para">
-            <span className="underline">Ans</span> :- In React, Hooks are reusable
-            Lifecycle Methods of React Components are defined as a series of
-            methods that are invoked in different stages of the component’s
-            existence. React web apps are actually a collection of independent
-            components which run according to the interactions made with them.
-            Every React Component has a lifecycle of its own.
+            <span className="underline">Ans</span> :- In React, Hooks are
+            reusable Lifecycle Methods of React Components are defined as a
+            series of methods that are invoked in different stages of the
+            component’s existence. React web apps are actually a collection of
+            independent components which run according to the interactions made
+            with them. Every React Component has a lifecycle of its own.
           </p>
           <h3 className="text-lg font-medium text-white">
             Lifecycle of React Components go through four stages
           </h3>
-          <div className='pl-5'>
+          <div className="pl-5">
             <h4 className="mt-3 text-lg font-medium text-white">
               1. INITIALIZE:
             </h4>
             <p className="common-para mt-2">
-              This is the stage where the component is constructed with the given
-              Props and default state. This is done in the constructor of a
-              Component Class.
+              This is the stage where the component is constructed with the
+              given Props and default state. This is done in the constructor of
+              a Component Class.
             </p>
-            <h4 className="mt-3 text-lg font-medium text-white">2. Mounting:</h4>
+            <h4 className="mt-3 text-lg font-medium capitalize text-white">
+              2. Mounting:
+            </h4>
             <p className="common-para mt-2">
               Mounting is the stage of rendering the JSX returned by the render
               method itself.
             </p>
-            <h4 className="mt-3 text-lg font-medium text-white">3. Updating:</h4>
+            <h4 className="mt-3 text-lg font-medium capitalize text-white">
+              3. Updating:
+            </h4>
             <p className="common-para mt-2">
               Updating is the stage when the state of a component is updated and
               the application is repainted.
             </p>
-            <h4 className="mt-3 text-lg font-medium text-white">
+            <h4 className="mt-3 text-lg font-medium capitalize text-white">
               4. Unmounting:
             </h4>
             <p className="common-para mt-2">
